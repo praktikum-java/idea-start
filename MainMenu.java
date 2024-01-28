@@ -10,14 +10,14 @@ public class MainMenu {
             System.out.println("Выберите пункт меню:");
             System.out.println("1. Добавить задачу");
             System.out.println("2. Удалить задачу");
-            System.out.println("3. Вывести список задач");
+            System.out.println("3. Вывести список задач")
             System.out.println("4. Выход");
             System.out.print("Ваш выбор: ");
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // перенос строки
 
-            if (choice == 1) {
+            if choice == 1 {
                 System.out.print("Введите задачу: ");
                 String task = scanner.nextLine();
                 taskManager.addTask(task);
@@ -28,7 +28,7 @@ public class MainMenu {
             } else if (choice == 3) {
                 taskManager.listTasks();
             } else if (choice == 4) {
-                System.out.println("Всего доброго!");
+                System.out.println(Всего доброго!);
                 return;
             } else {
                 System.out.println("Указанная команда не найдена.");

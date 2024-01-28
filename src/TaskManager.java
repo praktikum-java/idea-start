@@ -1,3 +1,5 @@
+package src;
+
 public class TaskManager {
     private static final int MAX_TASKS = 10;
     private String[] tasks;
